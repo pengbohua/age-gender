@@ -8,6 +8,7 @@ age estimation can be cast as an ordinal regression problem.In this paper, we pr
 regression modeling. In particular, an ordinal regression problem is transformed into a series of binary classification sub-problems. And we propose a multiple output CNN learning algorithm to collectively solve these classification sub-problems, so that the correlation between these tasks could be explored.
 
 **The training pipeline include face images aligning, face detection and classification.**
+
 For face detection, you can either use OpenCV's cascade object detector in detect.py or Yolodetector in yolodetect.py
 ###Running
 There are several ways to use a pre-existing checkpoint to do age or gender classification.  By default, the code will simply assume that the image you provided has a face in it, and will run that image through a multi-pass classification using the corners and center.
@@ -64,5 +65,7 @@ https://drive.google.com/drive/folders/0B8N1oYmGLVGWbDZ4Y21GLWxtV1E
 
 A pre-trained gender checkpoint for inception is available here:
 
-https://drive.google.com/drive/folders/0B8N1oYmGLVGWemZQd3JMOEZvdGs                          
+https://drive.google.com/drive/folders/0B8N1oYmGLVGWemZQd3JMOEZvdGs         
+
+                 
 **mymain contain the interface for a combination of functions powered by Raspberry Pi3 Debian, feel free if you do not need it**
