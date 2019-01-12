@@ -1,0 +1,14 @@
+numpy
+tensorflow
+re
+csv
+tensorflow.contrib.layers import *
+tensorflow.contrib.slim.python.slim.nets.inception_v3 import inception_v3_base
+依赖环境主要是tensorflow
+plugin:guessplugin
+21936->genda默认权重，注意路径guessgenda中guess model_dir=../
+22801->age
+代码
+github:https://github.com/dpressel/rude-carnie
+
+
